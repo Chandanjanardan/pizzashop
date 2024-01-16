@@ -1,0 +1,95 @@
+/* src/app.css */
+
+/* Navbar Styles */
+nav {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* OrderForm Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+select,
+button {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Pizza Card Styles */
+.pizza-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.pizza-card:hover {
+  transform: scale(1.02);
+}
+
+.pizza-card.Order Placed {
+  background-color: #f0f0f0;
+}
+
+.pizza-card.Order in Making {
+  background-color: #ffeeba;
+}
+
+.pizza-card.Order Ready {
+  background-color: #c3e6cb;
+}
+
+.pizza-card.Order Picked {
+  background-color: #d4edda;
+}
+
+.pizza-card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pizza-card button:hover {
+  background-color: #0056b3;
+}
